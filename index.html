@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>平利软件</title>
+	<script>
+function disp_confirm()
+  {
+  var r=confirm("您是否同意？若同意 请点击“确定” 若不同意 请点击“取消” ")
+  if (r==true)
+    {
+    location="choose.html"
+    }
+  else
+    {
+    history.back(1)
+    }
+  }
+</script>
+</head>
+
+<body background="background.jpg" align="center">
+<br>	<br>	<br>	
+<h1>平利软件使用条款</h1>	
+		<li>1.为保证您的安全使用，特制定此条款</li>
+	    <li>2.本程序用户禁止泄露一切相关秘密</li>
+	    <li>3.一切解释权归属开发者王熙同所有</li>
+	<br> <br>
+<input type="button" value="我已阅读" onClick="disp_confirm()">
+<h2><p id="helper"></p></h2>
+<script src="helper.js"></script>	
+<script src="welcome.js"></script>
+	  
+</body>
+</html>
