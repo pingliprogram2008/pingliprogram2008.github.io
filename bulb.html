@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>平利软件</title>
+</head>
+
+<body background="background.jpg" align="center">
+<p id="11"></p>
+	<h1>这是一片神奇的天地</h1>	
+<h2>你可以选择 <a href="javascript:void(0)" style="color: black" onClick="window.alert('成功！');
+	document.getElementById('11').innerHTML='王熙同提供技术支持'">显示帮助者</a></h2>	
+	<h2>或者你可以<a href="javascript:void(0)" style="color: black"
+				onClick="document.getElementById('bulb').src='bulbon.gif'">开灯</a>
+	    或<a href="javascript:void(0)" style="color: black"
+			onClick="document.getElementById('bulb').src='bulboff.gif'">关灯</a></h2>
+	
+	
+	<input type="button" onClick="javascript:window.alert('成功！');document.getElementById('bulb').src='bulbon.gif'" value="开灯">
+	<input type="button" onClick="javascript:window.alert('成功！');document.getElementById('bulb').src='bulboff.gif'" value="关灯"><br>
+	<img src="bulboff.gif" alt="灯泡" id="bulb">
+	<h3>或者，您可以<a href="javascript:history.back(1)" style="color: black">返回</a></h3>
+</body>
+</html>
