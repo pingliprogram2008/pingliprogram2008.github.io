@@ -1,0 +1,1 @@
+document.getElementById("netcheck").innerHTML="已连接到服务器"
