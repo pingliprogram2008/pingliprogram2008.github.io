@@ -7,5 +7,5 @@ document.getElementById("olpswcheck").innerHTML="<input type=password id=passwor
 	else {window.alert("授权码错误")}	
 	              }
         function olres(){
-	document.getElementById("password").innerHTML=""
+	document.getElementById("password").value=""
 	}
