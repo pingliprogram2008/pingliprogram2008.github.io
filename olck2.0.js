@@ -1,4 +1,4 @@
-document.getElementById("tips").innerHTML="平利软件 在线服务中&#10;免密登陆中&#10;广告位招租！&#10;广告位招租！"
+document.getElementById("tips").innerHTML="路漫漫其修远兮<br>吾将上下而求索<br>热烈庆祝文侠岛正式发布"
 /*
 document.getElementById("olpswcheck").innerHTML="<input type=password id=password placeholder=请输入授权码><input type=button onClick=handin() value=提交><input type=button value=重置 onclick=olres()>"
         function handin(){        
