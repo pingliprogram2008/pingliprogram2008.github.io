@@ -12,4 +12,4 @@ document.getElementById("olpswcheck").innerHTML="<input type=password id=passwor
 	}
 */
 // 上面隐藏
-document.getElementById("olpswcheck").innerHTML="<a href=choose.html>点击进入</a>"
+document.getElementById("olpswcheck").innerHTML="<a href=choose.html><span style='color:red;font-size:50px'>点击进入</span></a>"
