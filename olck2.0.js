@@ -1,4 +1,4 @@
-document.getElementById("tips").innerHTML="热烈庆祝文侠岛正式发布<br>岛主王熙同的作品<br><span style='color:red'>《文侠岛史略》</span><br>将于近期发布<br>敬请期待"
+document.getElementById("tips").innerHTML="广告位招租 <br>真的惊爆价<br>非诚勿扰"
 /*
 document.getElementById("olpswcheck").innerHTML="<input type=password id=password placeholder=请输入授权码><input type=button onClick=handin() value=提交><input type=button value=重置 onclick=olres()>"
         function handin(){        
